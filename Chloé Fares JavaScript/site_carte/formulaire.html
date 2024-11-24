@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="formulaire.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <button class="bouton-home">Home</button>
+        </a>
+    </header>
+    <div class="error-container">
+        <ul class="error-list"></ul>
+    </div>
+
+    <div class="message-success">
+        Formulaire envoyé !
+    </div>
+    <form action="" methode="POST" enctype="multipart/form-data">
+        <div>
+            <label for ="pseudo">Pseudo</label>
+            <input type="text" name="pseudo" id="pseudo">
+        </div>
+    
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+    
+        <div>
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" id="password">
+        </div>
+    
+        <div>
+            <label for="password">Entrer à nouveau le mot de passe</label>
+            <input type="password" name="password" id="passwordRepeat">
+        </div>
+    
+        <button type="submit">S'inscrire</button>
+    </form>
+    <script src="formulaire.js"></script>
+</body>
+</html>
+

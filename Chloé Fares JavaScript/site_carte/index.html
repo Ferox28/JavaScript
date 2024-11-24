@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="style.css"/>
+    <title>Site de carte</title>
+</head>
+<body id="corp">
+    <div class="top">
+        <header>
+            <div class="infos">
+                <div>
+                    <a href="formulaire.html">
+                        <button class="bouton-connexion">Inscription</button>
+                    </a>
+                </div>
+                <div class="titre">
+                    <h1>Jeu de carte</h1>
+                </div>
+                <div>
+                    <button id="mode" class="dark-mode" type="submit">Mode nuit</button>
+                </div>
+            </div>
+
+            <aside class="sidebar">
+                <div>
+                    <ul class="sidebar-links">
+                        <li class="tab tab-content1 tab-active">Rareté</li>
+                        <li class="tab tab-content2">Inventaire</li>
+                        <li class="tab tab-content3">Blibliothèque</li>
+                    </ul>
+                </div>
+            </aside>
+        </header>
+    </div> 
+
+    <div class="content content1 active">
+        <p>blabla1</p>
+    </div>
+    <div class="content content2">
+        <p>blabla2</p>
+    </div>
+    <div class="content content3">
+        <p class="Blibliothèque">Blibliothèque</p>
+        <div class="SSR">
+            <div class="titre-SSR">
+                <p>SSR</p>
+            </div>
+            <div class="photo-SSR">
+                <img class="cartes-SSR" src="1.jpg" alt="1">
+                <img class="cartes-SSR" src="6.jpg" alt="1">
+            </div>
+        </div>
+
+        <div class="SR">
+            <div class="titre-SR">
+                <p>SR</p>
+            </div>
+            <div class="photo-SR">
+                <img class="cartes-SR" src="2.jpg" alt="1">
+                <img class="cartes-SR" src="5.jpg" alt="1">
+            </div>
+        </div>
+
+        <div class="R">
+            <div class="titre-R">
+                <p>R</p>
+            </div>
+            <div class="photo-R">
+                <img class="cartes-R" src="3.jpeg" alt="1">
+                <img class="cartes-R" src="4.png" alt="1">
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="dark_mode.js"></script>
+</body>
+</html>
